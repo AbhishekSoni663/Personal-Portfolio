@@ -1,10 +1,11 @@
-import { Box, Grid } from "@mui/material";
+
 import ProjectsSection from "../MainProjects/ProjectsSection";
 import FourthNavbar from "../FourthNav/FourthNavbar";
 import "../MainProjects/Projects.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { Box, Grid } from "@mui/material";
 // import { Zoom } from "react-awesome-reveal";
 const ProjectPage = () => {
   useEffect(() => {
