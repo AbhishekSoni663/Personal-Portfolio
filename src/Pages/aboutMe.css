@@ -1,0 +1,11 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.about-me-page{
+    width: 100% !important;
+    /* background-color: aliceblue; */
+    min-height: 100vh;
+}

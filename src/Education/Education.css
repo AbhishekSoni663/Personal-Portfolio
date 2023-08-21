@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Diphylleia&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.experience-main {
+  min-height: 70vh;
+  width: 79%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: auto;
+}
+.exp-main-1 {
+  width: 40%;
+  min-height: 45vh;
+  margin: 8px 0;
+}
+.exp-main-2 {
+  width: 40%;
+  min-height: 45vh;
+  margin: 8px 0;
+}
+.exp-timeline1 {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* border-left: 1px dashed rgba(99, 99, 99, 0.2); */
+}
+.exp-card-2 h3 {
+  font-size: 20px !important;
+
+  font-weight: 400 !important;
+  letter-spacing: 0.1rem !important;
+}
+.exp-card-2 h5 {
+  font-size: 1em !important;
+  text-align: center !important;
+  font-weight: 500 !important;
+  font-family: "Diphylleia", serif !important;
+}
+.exp-card-2 h4 {
+  font-size: 1em !important;
+  font-family: "Diphylleia", serif !important;
+  text-align: center;
+  font-weight: 500 !important;
+}
+
+.exp-timeline {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* border-left: 1px dashed rgba(99, 99, 99, 0.2); */
+}
+.exp-main-tim {
+  background-color: blue;
+}
+
+.exp-card {
+  min-height: 40vh;
+  background: none !important;
+}
+
+.exp-card-1 {
+  font-size: 1.3em !important;
+}
+.exp-card-1 p {
+  padding: 0.9rem;
+}
+
+@media (max-width: 1098px) {
+  .experience-main {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .experience-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .exp-main-1 {
+    min-width: 95%;
+    padding: 10px;
+  }
+}

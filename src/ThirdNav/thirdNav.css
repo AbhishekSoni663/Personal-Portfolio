@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau:wght@100;200;300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.third-nav {
+  width: 79%;
+  margin: 0.4rem 0;
+  margin-left: auto;
+  background: rgba(255, 255, 255, 0);
+  box-shadow: rgba(149, 157, 165, 0.055) 0px 8px 24px;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+
+  margin-top: 1rem !important;
+
+  /* background-color: ; */
+}
+.third-nav-link {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  /* background-color: blanchedalmond; */
+}
+.third-ul {
+  display: flex;
+  min-width: 60%;
+}
+.third-li {
+  width: 100%;
+  margin: 0 5px;
+  /* background-color: rgb(99, 86, 66) !important; */
+}
+.third-li button {
+  width: 100%;
+  background: none;
+  padding: 10px;
+}
+.third-li button a {
+  width: 100%;
+  font-size: 1.3rem !important;
+  text-decoration: none !important;
+  letter-spacing: 0.2rem;
+  font-weight: 600 !important;
+  font-family: "Ysabeau", sans-serif !important;
+  -webkit-animation: text-shadow-drop-center 0.6s both;
+  animation: text-shadow-drop-center 0.6s both;
+}
+@-webkit-keyframes text-shadow-drop-center {
+  0% {
+    text-shadow: 0 0 0 transparent;
+  }
+
+  100% {
+    text-shadow: 0 0 18px rgba(243, 239, 239, 0.473);
+  }
+}
+
+@keyframes text-shadow-drop-center {
+  0% {
+    text-shadow: 0 0 0 transparent;
+  }
+
+  100% {
+    text-shadow: 0 0 18px rgba(248, 234, 234, 0.521);
+  }
+}
+
+@media (max-width: 768px) {
+  .third-ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    min-height: 20vh;
+  }
+  /* .third-li{
+        display: flex;
+        justify-content: space-around;
+    } */
+  .third-nav-link {
+    min-height: 100%;
+  }
+}
+@media (max-width: 1098px) {
+  .third-nav {
+    width: 100%;
+    margin-top: 5px;
+  }
+}

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-slide{
+    min-height: 80vh;
+    width: 79%;
+    display: flex;
+    align-items: center;
+background-image: url(src/assets/Hero-img/smoke12.png);
+background-size: cover;
+background-position:center;
+/* background-repeat: no-repeat; */
+    margin-left: auto;
+    margin-top:0.7rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.main-swip{
+    /* background-color: aliceblue; */
+    min-height: 70vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.slide1{
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.slide-a{
+    min-width: 100% !important;
+    display: flex;
+    /* background-color: aliceblue; */
+    min-height: 60vh;
+    align-items: center;
+    justify-content: center;
+}
+.slide-box{
+    min-height: 30vh;
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.slide-box p{
+   min-height: 30vh;
+   width: 80%;
+   display: flex;
+   align-items: center !important;
+   text-align: center !important;
+   font-size: 1.4rem !important;
+   letter-spacing: 0.2rem !important;
+   font-family: 'Cookie', cursive !important;
+   -webkit-animation: text-shadow-drop-center 0.6s both;
+animation: text-shadow-drop-center 0.6s both;
+}
+.slide-box h3{
+    width: 80%;
+    font-size: 1.8rem !important;
+    letter-spacing: 0.2rem !important;
+    font-family: 'Cookie', cursive !important;
+    -webkit-animation: text-shadow-drop-center 0.6s both;
+animation: text-shadow-drop-center 0.6s both;
+}
+@media(max-width:1098px){
+    .main-slide{
+        min-width: 100%;
+    }
+    .main-swip{
+        width: 97%;
+    }
+}
+@media(max-width:768px){
+    .slide-box p{
+        text-align: center;
+    }
+}
+
+@-webkit-keyframes text-shadow-drop-center {
+    0% {
+      text-shadow: 0 0 0 transparent;
+    }
+  
+    100% {
+      text-shadow: 0 0 18px rgba(243, 239, 239, 0.473);
+    }
+  }
+  
+  @keyframes text-shadow-drop-center {
+    0% {
+      text-shadow: 0 0 0 transparent;
+    }
+  
+    100% {
+      text-shadow: 0 0 18px rgba(248, 234, 234, 0.521);
+    }
+  }
+  
