@@ -1,12 +1,13 @@
 import { Box, Grid } from "@mui/material";
 import Skill from "../Skill/Skill";
 import "../Skill/Skill.css";
-import ThirdNav from "../ThirdNav/thirdNav";
+
 import NavbarComp from "../NavBarComponent/NavbarComp";
 import Herosection from "../HeroSection/Herosection";
 import Intro from "../Pages/Intro"
 import ProjectPage from "./ProjectPage";
 import Client from "../Testimonial/Client";
+import ThirdNav from "../ThirdNav/ThirdNav";
 const SkillPage = () => {
   return (
     <>
