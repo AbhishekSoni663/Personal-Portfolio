@@ -2,7 +2,7 @@ import { Box, Grid } from "@mui/material";
 import FourthNavbar from "../FourthNav/FourthNavbar";
 import JavaScriptPro from "../JavaScriptProject/JavaScriptPro";
 import NavbarComp from "../NavBarComponent/NavbarComp";
-import ThirdNav from "../ThirdNav/thirdNav";
+import ThirdNav from "../ThirdNav/ThirdNav";
 import Experience from "../Experienced/Experience";
 import Herosection from "../HeroSection/Herosection";
 import Client from "../Testimonial/Client";

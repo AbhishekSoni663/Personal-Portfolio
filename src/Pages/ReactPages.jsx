@@ -2,7 +2,7 @@ import { Box, Grid } from "@mui/material";
 import FourthNavbar from "../FourthNav/FourthNavbar";
 import ReactPro from "../ReactProject/ReactPro";
 import Experience from "../Experienced/Experience";
-import ThirdNav from "../ThirdNav/thirdNav";
+import ThirdNav from "../ThirdNav/ThirdNav";
 import Herosection from "../HeroSection/Herosection";
 import NavbarComp from "../NavBarComponent/NavbarComp";
 import Client from "../Testimonial/Client";
