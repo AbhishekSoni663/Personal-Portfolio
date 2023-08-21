@@ -4,7 +4,7 @@ import HtmlImg from "../assets/Skill image/html-5.png";
 import CssImg from "../assets/Skill image/css.png";
 import JSImg from "../assets/Skill image/js.png";
 import BootImg from "../assets/Skill image/bootstrap.png";
-import TailImg from "../assets/Skill image/TailWind.png";
+import TailImg from "../assets/Skill image/Tail.png";
 import MatImg from "../assets/Skill image/Material.png";
 import RctImg from "../assets/Skill image/atom.png";
 import RdImg from "../assets/Skill image/Redux.png";
