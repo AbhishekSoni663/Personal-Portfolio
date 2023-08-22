@@ -101,7 +101,7 @@ const About = () => {
             <div className="button">
               <Button>
                 <a
-                  href="src/assets/Cv/Abhishek's Resume.pdf"
+                  href="src/assets/Cv/AbhishekFrontEndFresher Resume.pdf"
                   download
                   className="anchor"
                 >
