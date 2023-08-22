@@ -29,7 +29,7 @@ const Client = () => {
           }}
           modules={[Autoplay, Pagination]}
           className="main-swip"
-          data-aos="fade-down"
+          data-aos="zoom-in"
           data-aos-easing="linear"
           data-aos-duration="1500"
         >

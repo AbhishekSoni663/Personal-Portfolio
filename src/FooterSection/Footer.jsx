@@ -37,11 +37,11 @@ const Footer = () => {
       <footer
         className="footer "
         id="contact"
-        data-aos="fade-up"
+        data-aos="zoom-in"
         data-aos-duration="3000"
       >
         <div className="footer-main">
-          <div className="foot-svg" data-aos="fade-up" data-aos-duration="3000">
+          <div className="foot-svg" data-aos="zoom-in" data-aos-duration="3000">
             <img src={blackImg} />
             <p>
               Abhishek Soni
@@ -51,7 +51,7 @@ const Footer = () => {
           </div>
           <div
             className="foot-detail"
-            data-aos="fade-up"
+            data-aos="zoo-in"
             data-aos-duration="3000"
           >
             <div className="foot-card">

@@ -81,6 +81,9 @@
         justify-content: space-around;
         align-items: center;
     }
+    .about-p2{
+        text-align: center !important;
+    }
 }
 
 /* Heading and ParaGraph */

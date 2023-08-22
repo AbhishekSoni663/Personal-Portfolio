@@ -96,6 +96,11 @@
 
 }
 
+/* sec-navbar-menu1{
+  border: none !important;
+  background: none !important;
+  mix-blend-mode: screen !important;
+} */
 .first-logo p {
   width: 100%;
   padding: 0.5rem !important;
@@ -105,7 +110,11 @@
   font-weight: 400 !important;
   letter-spacing: 0.2em !important;
 }
-
+@media(max-width:500px){
+  .sec-navbar-logo{
+    display: none;
+  }
+}
 .second-nav {
   display: none;
   /* filter:drop-shadow(10px 10px 10px rgb(230, 27, 27)) */

@@ -13,7 +13,7 @@ const Secondnav = () => {
                 <nav className="navbar">
                     <div className="container-fluid">
                         <Link className="navbar-Logo" style={{ width: "auto", padding: "10px" }} href="#">
-                            <img src={offLogo} width={"80px"} />
+                            <img className="sec-navbar-logo" src={offLogo} width={"80px"} />
                         </Link>
                         <div className="second-link">
                             <ul className="sec-nav">
@@ -48,7 +48,7 @@ const Secondnav = () => {
                             aria-controls="offcanvasNavbar"
                             aria-label="Toggle navigation"
                         >
-                            <img src={menuImg} />
+                            <img className="sec-navbar-menu1" src={menuImg} />
                         </button>
                         <div
                             className="offcanvas offcanvas-end"
