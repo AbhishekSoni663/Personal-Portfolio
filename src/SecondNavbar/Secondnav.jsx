@@ -77,17 +77,17 @@ const Secondnav = () => {
                                         </Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Links className="nav-link" scroll={(el) => el.scrollIntoView({ behavior: 'smooth' })} to="#about">
+                                        <Links className="nav-link"  to="#about">
                                             About
                                         </Links>
                                     </li>
                                     <li className="nav-item">
-                                        <Links className="nav-link" scroll={(el) => el.scrollIntoView({ behavior: 'smooth' })} to="#project">
+                                        <Links className="nav-link"  to="#project">
                                             Projects
                                         </Links>
                                     </li>
                                     <li className="nav-item">
-                                        <Links className="nav-link" scroll={(el) => el.scrollIntoView({ behavior: 'smooth' })} to="#contact">
+                                        <Links className="nav-link"  to="#contact">
                                             Contacts
                                         </Links>
                                     </li>
