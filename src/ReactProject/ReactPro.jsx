@@ -187,7 +187,7 @@ const ReactPro = () => {
                 <Box className="pro-box-head1">
                   <button>
                     <a
-                      href="https://new-food-app.vercel.app/"
+                      href="https://new-foo-store.vercel.app/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -196,7 +196,7 @@ const ReactPro = () => {
                   </button>
                   <button>
                     <a
-                      href="https://github.com/AbhishekSoni663/NewFoodApp.git"
+                      href="https://github.com/AbhishekSoni663/NewFooStore.git"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
