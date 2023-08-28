@@ -183,18 +183,21 @@
   .about-detail-img {
     display: flex !important;
     justify-content: center !important;
-    width: 100%;
-    padding: 10px;
-    min-height: 700px;
+    width: 60%;
+    /* padding: 10px; */
+    height: 50% !important;
     align-items: center !important;
   }
   .ab-profile-img {
-    height: 100% !important;
+   
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center !important;
     width: 100%;
-    padding: 0.7rem;
+    /* padding: 0.7rem; */
+  }
+  .ab-profile-img img{
+    padding: 0.1em;
   }
   .about-detail-head p {
     width: 100%;
