@@ -4,6 +4,7 @@ import ProfileImg from "../assets/AboutImg/Profile1.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { Box } from "@mui/material";
 const AboutDetail = () => {
   useEffect(() => {
     AOS.init();
@@ -74,9 +75,7 @@ const AboutDetail = () => {
             </Zoom>
           </div>
           <div className="about-detail-img">
-            
-              <img src={ProfileImg} />
-          
+            <Box className="ab-profile-img"></Box>    
           </div>
         </div>
       </div>

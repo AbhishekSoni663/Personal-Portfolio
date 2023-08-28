@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 .main-slide{
-    /* min-height: 80vh; */
+    height: 90vh;
     width: 79%;
     display: flex;
     align-items: center;
@@ -20,7 +20,7 @@ background-position:center;
 }
 .main-swip{
     /* background-color: aliceblue; */
-    min-height: 70vh;
+    height: 70%;
     width: 80%;
     display: flex;
     align-items: center;
