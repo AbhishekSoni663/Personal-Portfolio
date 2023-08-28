@@ -11,7 +11,7 @@
 .about-home {
     margin-top: 10px;
     width: 79%;
-    min-height: 70vh;
+    /* min-height: 70vh; */
     box-shadow: rgba(149, 157, 165, 0.068) 0px 8px 24px;
     margin-left: auto;
 }

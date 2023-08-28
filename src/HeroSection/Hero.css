@@ -201,7 +201,8 @@
   .hero-grid-b {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    margin: 10px 0px;
+    /* min-height: 100vh; */
     justify-content: space-between !important;
     width: 100%;
   }

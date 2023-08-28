@@ -74,9 +74,9 @@ const AboutDetail = () => {
             </Zoom>
           </div>
           <div className="about-detail-img">
-            {/* <Fade delay={1e3} cascade damping={1e-1}> */}
+            
               <img src={ProfileImg} />
-            {/* </Fade> */}
+          
           </div>
         </div>
       </div>
