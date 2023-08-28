@@ -21,7 +21,6 @@ const Home = () => {
       <AboutMe/>
       <ProjectPage/>
       <Client/>
-      
     </>
 
   )

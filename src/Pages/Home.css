@@ -4,10 +4,9 @@
     box-sizing: border-box;
 }
 .home-hero{
+    height: 100vh;
     width:70%;
-    background-position: center;
-    background-size:cover;
-    min-height: 70vh;
+    /* min-height: 70vh; */
     /* background-image: url(src/assets/Hero-img/smokebg.png); */
 }
 .main-home{
