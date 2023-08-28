@@ -108,6 +108,15 @@ filter: grayscale(53%) sepia(72%) blur(6px) brightness(94%) hue-rotate(24deg) sa
   width: 45%;
 }
 
+@media (max-width: 1098px) {
+  .project-home {
+    min-width: 100%;
+  }
+  .project-main{
+    min-height: 40vh !important;
+  }
+}
+
 @media (max-width: 768px) {
   .project-detail{
     background-color: #520606;
