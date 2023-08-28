@@ -6,9 +6,10 @@
     box-sizing: border-box;
 }
 .main-slide{
-    height: 90vh;
+    min-height: 70vh !important;
     width: 79%;
     display: flex;
+    /* background-color: aliceblue; */
     align-items: center;
 background-image: url(src/assets/Hero-img/smoke12.png);
 background-size: cover;
@@ -20,23 +21,29 @@ background-position:center;
 }
 .main-swip{
     /* background-color: aliceblue; */
-    height: 70%;
     width: 80%;
+    /* background-color: blueviolet; */
+    height: 55vh;
     display: flex;
+    /* min-height: 50vh !important; */
+    /* background-color: aliceblue; */
     align-items: center;
     justify-content: center;
     border: none;
 }
 .slide1{
     display: flex;
+   
     align-items: center !important;
     justify-content: center !important;
 }
 .slide-a{
     min-width: 100% !important;
     display: flex;
+     height: 100%;
+    /* background-color: brown; */
     /* background-color: aliceblue; */
-    min-height: 43vh;
+    /* min-height: 50vh; */
     align-items: center;
     justify-content: center;
 }
