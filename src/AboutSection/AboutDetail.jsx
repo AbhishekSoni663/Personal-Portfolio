@@ -75,7 +75,9 @@ const AboutDetail = () => {
             </Zoom>
           </div>
           <div className="about-detail-img">
-            <Box className="ab-profile-img"></Box>    
+            <Box className="ab-profile-img">
+              <img src={ProfileImg}/>
+              </Box>    
           </div>
         </div>
       </div>
