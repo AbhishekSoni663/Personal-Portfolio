@@ -8,13 +8,16 @@
   .project-home {
     min-width: 100%;
   }
+  .project-main{
+    min-height: 40vh !important;
+  }
 }
 .project-home {
   width: 79%;
   margin-left: auto;
 }
 .project-main {
-  min-height: 70vh;
+  min-height: 50vh;
   display: flex;
   margin-top: 0.4rem;
   align-items: center;
@@ -37,7 +40,14 @@ h3 {
   width: 100% !important;
 }
 
-
+@media (max-width:768px){
+  .project-main{
+    min-height: 50vh !important;
+  }
+  /* .project-box{
+    min-width: 70% !important;
+  } */
+}
 
 .pro-box-head h4 {
   width: 70%;

@@ -2,7 +2,7 @@ import { Box, Grid } from "@mui/material";
 import "../ReactProject/ReactPro.css";
 // import { Fade } from "react-awesome-reveal";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
+// import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-coverflow";
 import "swiper/css/navigation";

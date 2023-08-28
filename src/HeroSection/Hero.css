@@ -200,9 +200,7 @@
 @media (max-width: 1099px) {
   .hero-grid-b {
     display: flex;
-    flex-direction: column;
-    margin: 10px 0px;
-    /* min-height: 100vh; */
+    flex-direction: column; 
     justify-content: space-between !important;
     width: 100%;
   }
@@ -210,6 +208,7 @@
   .hero-grid {
     min-width: 100%;
     display: flex;
+    margin-bottom: 5px !important;
     align-items: center;
     justify-content: center;
   }

@@ -15,7 +15,7 @@
 
 .project-home {
   width: 79%;
-  min-height: 70vh !important;
+ 
   margin-left: auto;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
@@ -26,7 +26,7 @@
 
 .project-main {
   display: flex;
-  /* min-height: 50vh; */
+  min-height: 70vh;
   margin-top: 0.4rem;
   align-items: center;
   padding: 0.7rem;
@@ -118,6 +118,9 @@ filter: grayscale(53%) sepia(72%) blur(6px) brightness(94%) hue-rotate(24deg) sa
     min-width:100% !important;
     padding: 10px !important;
   }
+  .project-main{
+    min-height: 40vh !important;
+  }
 
   .project-box {
     min-height: 100% !important;
@@ -172,12 +175,12 @@ filter: grayscale(53%) sepia(72%) blur(6px) brightness(94%) hue-rotate(24deg) sa
 .swiper-slide-shadow-left{
   background: none !important;
 }
-.web-swiper {
+/* .web-swiper {
   display: flex !important;
   width: 100% !important;
   background: none !important;
   height: 100% !important;
-}
+} */
 
 .web-swiper-1 {
   width: 50% !important;

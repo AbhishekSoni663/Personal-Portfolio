@@ -167,4 +167,7 @@ h3 {
     background: none !important;
     background-image: none;
   }
+   .project-main{
+    min-height: 40vh !important;
+  }
 }

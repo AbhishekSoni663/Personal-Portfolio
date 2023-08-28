@@ -20,7 +20,7 @@
     min-height: 100%;
 } */
 .about-main2 {
-    min-height: 50vh;
+    /* min-height: 50vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
