@@ -7,18 +7,18 @@
     width:70%;
     background-position: center;
     background-size:cover;
-    min-height: 110vh;
+    min-height: 70vh;
     /* background-image: url(src/assets/Hero-img/smokebg.png); */
 }
 .main-home{
     display: flex;
-
+    border:2px solid wheat;
     width: 100%;
 }
 @media(max-width:1099px){
     .home-hero{
         min-width: 100%;
-        height: 100% !important;
+        /* height: 100% !important; */
         display: flex !important;
         justify-content: space-around !important;
         /* background-color: blueviolet !important; */
