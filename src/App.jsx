@@ -45,7 +45,7 @@ const App = () => {
           <Router>
             <Secondnav />
             <Routes>
-              <Route path="/home" element={<Home />} />
+              <Route path="/" element={<Home />} />
               <Route path="/" element={<About />} />
               <Route path="/" element={<AboutMe />} />
               <Route path="/experience" element={<ExperiencePage />} />

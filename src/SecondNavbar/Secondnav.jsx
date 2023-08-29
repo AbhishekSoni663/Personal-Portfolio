@@ -18,7 +18,7 @@ const Secondnav = () => {
                         <div className="second-link">
                             <ul className="sec-nav">
                                 <li className="nav-item">
-                                    <Link className="nav-link active" aria-current="page" to="/home">
+                                    <Link className="nav-link active" aria-current="page" to="/">
                                         Home
                                     </Link>
                                 </li>

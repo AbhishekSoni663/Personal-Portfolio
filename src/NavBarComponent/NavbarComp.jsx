@@ -14,7 +14,7 @@ const NavbarComp = () => {
           </span>
           <ToogleBar />
           <nav className="first-nav-link">
-            <Link to="/home">Home</Link>
+            <Link to="/">Home</Link>
             <Links scroll={(el) => el.scrollIntoView({ behavior: 'smooth'})} to="#about">About</Links>
             <Links   scroll={(el) => el.scrollIntoView({ behavior: 'smooth' })} to="#project">Projects</Links>
             <Links  scroll={(el) => el.scrollIntoView({ behavior: 'smooth' })}
