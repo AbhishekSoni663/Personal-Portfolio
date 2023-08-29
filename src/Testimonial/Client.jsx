@@ -1,5 +1,4 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -46,7 +45,7 @@ const Client = () => {
               </div>
             </SwiperSlide>
           </div>
-          <div className="slide">
+          <div className="slide1">
             <SwiperSlide className="slide-a">
               <div className="slide-box">
                 <h3>Leon</h3>
