@@ -18,7 +18,7 @@ const Secondnav = () => {
                         <div className="second-link">
                             <ul className="sec-nav">
                                 <li className="nav-item">
-                                    <Link className="nav-link active" aria-current="page" to={"/"}>
+                                    <Link className="nav-link active" aria-current="page" to="/home">
                                         Home
                                     </Link>
                                 </li>
@@ -72,7 +72,7 @@ const Secondnav = () => {
                             <div className="offcanvas-body second-nav-body">
                                 <ul className="navbar-nav-menu ">
                                     <li className="nav-item">
-                                        <Link className="nav-link" to="/">
+                                        <Link className="nav-link" to="/home">
                                             Home
                                         </Link>
                                     </li>
