@@ -60,9 +60,7 @@ const Secondnav = () => {
                                 <h5 className="title" id="offcanvasNavbarLabel">
                                     <img src={offLogo} width={"100px"} />
                                 </h5>
-
                                 <button
-
                                     // className="btn-close"
                                     data-bs-dismiss="offcanvas"
                                     aria-label="Close"
